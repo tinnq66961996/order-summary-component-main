@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body
+    class="bg-[#E0E8FF] flex flex-col items-center justify-center h-screen w-screen bg-mobile bg-contain bg-no-repeat desktop:bg-desktop"
+  >
+    <div
+      class="container rounded-[2rem] bg-white mobile:w-[32.7rem] mobile:h-[56.7rem] flex flex-col gap-[3rem] text-center items-center desktop:w-[45rem] desktop:h-[69.7rem]"
+    >
+      <img
+        src="/images/illustration-hero.svg"
+        alt="illustration-hero"
+        class="rounded-t-[2rem]"
+      />
+      <div class="text flex flex-col gap-[2rem]">
+        <h1
+          class="text-[2.2rem] font-black text-[#1F2E55] desktop:text-[2.8rem]"
+        >
+          Order Summary
+        </h1>
+        <p
+          class="text-[1.5rem] font-medium text-[#717FA6] desktop:text-[1.6rem] desktop:w-[35.4rem]"
+        >
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+      <div
+        class="information w-[27.9rem] h-[8.1rem] flex justify-around items-center bg-[#F7F9FF] rounded-[1.1rem] desktop:w-[35.4rem] desktop:h-[9.8rem]"
+      >
+        <img
+          src="/images/icon-music.svg"
+          alt="music icon"
+          class="w-[4.8rem] h-[4.8rem]"
+        />
+        <div class="price text-left">
+          <h3
+            class="text-[#1F2E55] font-black text-[1.4rem] desktop:text-[1.6rem]"
+          >
+            Annual Plan
+          </h3>
+          <p class="text-[#717FA6] text-[1.4rem] desktop:text-[1.6rem]">
+            $59.99/year
+          </p>
+        </div>
+        <p
+          class="text-[#382AE1] font-bold text-[1.3rem] underline underline-offset-4"
+        >
+          Change
+        </p>
+      </div>
+      <div class="button flex flex-col gap-[2rem]">
+        <button
+          class="btn bg-[#382AE1] text-[#FFFFFF] text-[1.5rem] font-black w-[27.9rem] h-[5rem] rounded-[1.1rem] desktop:w-[35.4rem] shadow-[0_20px_20px_0px_rgba(56,42,225,0.19)]"
+        >
+          Proceed to payment
+        </button>
+        <p class="text-[#717FA6] text-[1.5rem] font-black">Cancel order</p>
+      </div>
+    </div>
+  </body>
+</html>
